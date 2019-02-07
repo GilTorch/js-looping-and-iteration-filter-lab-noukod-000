@@ -4,12 +4,3 @@ function findMatching(array,name){
     return element.toLowerCase()==name.toLowerCase();
   })
 }
-
-
-function fuzzyMatch(array,letters){
-  return array.filter((element)=>element.startsWith(letters));
-}
-
-function matchName(drivers,name){
-  return array.filter((element)=>return element.name===name);
-}
