@@ -9,3 +9,7 @@ function findMatching(array,name){
 function fuzzyMatch(array,letters){
   return array.filter((element)=>element.startsWith(letters));
 }
+
+function matchName(){
+  
+}
