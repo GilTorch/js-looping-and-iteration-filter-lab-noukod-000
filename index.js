@@ -10,6 +10,6 @@ function fuzzyMatch(array,letters){
   return array.filter((element)=>element.startsWith(letters));
 }
 
-function matchName(){
-
+function matchName(drivers,name){
+  return array.filter((element)=>return element.name===name);
 }
